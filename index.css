@@ -1,0 +1,196 @@
+.space{
+	background-color: #5c5c8a;
+	margin: 0 auto;
+	width: 700px;
+	height: 1000px;
+}
+
+.starContainer{ 
+	position: absolute;
+}
+
+
+@keyframes starFall {
+    0% {
+        transform: translateY(-40px) scale(.2);
+    }
+    100% {
+        transform: translateY(970px) scale(.2);
+    }
+}
+
+span {
+	position: relative;
+}
+
+.stars span{
+	position: absolute;
+	margin-top: -75px;
+}
+
+.stars:first-of-type{
+	  margin-left: 54px;
+  animation-name: starFall;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: 4s;
+  animation-iteration-count:infinite;
+}
+.stars:nth-of-type(2){
+	margin-left: 154px;
+  animation-name: starFall;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: 0.5s;
+  animation-iteration-count:infinite;
+}
+
+
+.starContainer span:nth-of-type(3){
+  margin-left: 432px;
+  animation-name: starFall;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-iteration-count:infinite;
+}
+
+.starContainer span:nth-of-type(4){
+  margin-left: 21px;
+  animation-name: starFall;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: 1.5s;
+  animation-iteration-count:infinite;
+}
+
+.starContainer span:nth-of-type(5){
+  margin-left: 76px;
+  animation-name: starFall;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: 7s;
+  animation-iteration-count:infinite;
+}
+
+.starContainer span:nth-of-type(6){
+  margin-left: 4px;
+  animation-name: starFall;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: 5.5s;
+  animation-iteration-count:infinite;
+}
+
+.starContainer span:nth-of-type(7){
+  margin-left: 45px;
+  animation-name: starFall;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: 5s;
+  animation-iteration-count:infinite;
+}
+
+.starContainer span:nth-of-type(8){
+  margin-left: 400px;
+  animation-name: starFall;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: 3s;
+  animation-iteration-count:infinite;
+}
+
+.starContainer span:nth-of-type(9){
+  margin-left: 275px;
+  animation-name: starFall;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: 4s;
+  animation-iteration-count:infinite;
+}
+
+.starContainer span:nth-of-type(9){
+  margin-left: 475px;
+  animation-name: starFall;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: .01s;
+  animation-iteration-count:infinite;
+}
+
+.starContainer span:nth-of-type(10){
+  margin-left: 400px;
+  animation-name: starFall;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: 7s;
+  animation-iteration-count:infinite;
+}
+.starContainer span:nth-of-type(11){
+  margin-left: 200px;
+  animation-name: starFall;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-iteration-count:infinite;
+}
+
+.starContainer span:nth-of-type(12){
+  margin-left: 220px;
+  animation-name: starFall;
+  animation-timing-function: steps(50, end);
+  animation-duration: 10s;
+  animation-delay: 4s;
+  animation-iteration-count:infinite;
+}
+
+
+.stars {
+   margin: 50px 0;
+   position: relative;
+   display: block;
+   color: #fffafa;
+   width: 0px;
+   height: 0px;
+   border-right:  100px solid transparent;
+   border-bottom: 70px  solid #fffafa;
+   border-left:   100px solid transparent;
+   -moz-transform:    rotate(3deg) scale(.2);
+   -webkit-transform: rotate(3deg) scale(.2);
+   -ms-transform:     rotate(3deg) scale(.2);
+   -o-transform:      rotate(3deg) scale(.2);
+}
+.stars:before {
+   border-bottom: 80px solid #fffafa;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+
+}
+.stars:after {
+   position: absolute;
+   display: block;
+   color: #fffafa;
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid #fffafa;
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+}
