@@ -21,6 +21,7 @@
 
 span {
 	position: relative;
+	z-index: 1;
 }
 
 .stars span{
@@ -193,4 +194,40 @@ span {
    -ms-transform:     rotate(-70deg);
    -o-transform:      rotate(-70deg);
    content: '';
+}
+
+
+.rocket {
+  height: 0;
+  width: 100px;
+  border-bottom: 68px solid red;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  transform: rotate(180deg);
+  margin-left: 40px;
+  margin-left: 200px;
+  margin-top: 500px;
+  display: inline-block;
+  position: absolute;
+  z-index: 0;
+}
+
+
+.top {
+  width: 0;
+  height: 0;
+  border-bottom: 52px solid red;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  margin: 65px 20px;
+  -webkit-transform: rotate(180deg);
+}
+
+.thruster{
+	width:0;
+	height:0;
+	border-top: 25px solid red;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	-webkit-transform: rotate(180deg);
 }
