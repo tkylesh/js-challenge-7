@@ -206,7 +206,7 @@ span {
   transform: rotate(180deg);
   margin-left: 40px;
   margin-left: 200px;
-  margin-top: 500px;
+  margin-top: 300px;
   display: inline-block;
   position: absolute;
   z-index: 0;
@@ -225,9 +225,19 @@ span {
 
 .thruster{
 	width:0;
-	height:0;
-	border-top: 25px solid red;
+	height: 0;
+	border-top: 25px solid orange;
 	border-left: 15px solid transparent;
 	border-right: 15px solid transparent;
+  margin: -207px 70px;
 	-webkit-transform: rotate(180deg);
+}
+.thruster_right{
+  width:0;
+  height: 0;
+  border-top: 25px solid orange;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  margin: 182px 0px;
+  -webkit-transform: rotate(180deg);
 }
